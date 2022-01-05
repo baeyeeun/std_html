@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>배예은</title>
+
+</head>
+
+<body>
+
+<!-- 1. html 2.javascript(jqery) -> validation 3.java  -->
+
+	<form action="./formResult.html">
+		<input type="text" id="id" name="jd">
+		<input type="button" id="button" name="button" value="제출">
+	</form>
+	
+	<script type="text/javascript">
+		function here(){
+			alert("id"+ document.getElementById("id"));
+			alert("id"+ document.getElementByName("id"));
+			document.getElementById("form").submit();
+			
+		}
+	
+	</script>
+</body>
+</html>
